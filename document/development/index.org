@@ -15,7 +15,8 @@
 ** 〔前提〕
 - [[file:terminological-dictionary.org::*〈用語辞典〉][〈用語辞典〉]]
 ** 〔PFD〕
-- [[file:pfd.md]]
+- 図 [[file:pfd.gif][file:pfd.gif]]
+- ソースファイル [[file:pfd.dot]]
 *** 〔イテレーション10〕
 - 目標
   - 中身空。

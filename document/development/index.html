@@ -4,10 +4,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
 <head>
 <title>〈開発プロセス〉</title>
-<!-- 2016-11-08 火 13:49 -->
+<!-- 2016-11-10 木 19:16 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
-<meta  name="author" content="nakamura@isfactory.co.jp" />
+<meta  name="author" content="tempest200903@gmail.com" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center; }
@@ -151,42 +151,41 @@ for the JavaScript code in this tag.
 <li><a href="#sec-1">1. 〈開発プロセス〉</a>
 <ul>
 <li><a href="#sec-1-1">1.1. 〔前提〕</a></li>
-<li><a href="#sec-1-2">1.2. 〔PFD〕</a></li>
-<li><a href="#sec-1-3">1.3. 〔イテレーション〕</a>
+<li><a href="#sec-1-2">1.2. 〔PFD〕</a>
 <ul>
-<li><a href="#sec-1-3-1">1.3.1. 〔イテレーション10〕</a></li>
-<li><a href="#sec-1-3-2">1.3.2. 〔イテレーション11〕</a></li>
+<li><a href="#sec-1-2-1">1.2.1. 〔イテレーション10〕</a></li>
+<li><a href="#sec-1-2-2">1.2.2. 〔イテレーション11〕</a></li>
 </ul>
 </li>
-<li><a href="#sec-1-4">1.4. branch</a></li>
-<li><a href="#sec-1-5">1.5. 〔成果物定義書〕</a>
+<li><a href="#sec-1-3">1.3. branch</a></li>
+<li><a href="#sec-1-4">1.4. 〔成果物定義書〕</a>
 <ul>
-<li><a href="#sec-1-5-1">1.5.1. 《wd1001/プロダクト仕様書》</a></li>
-<li><a href="#sec-1-5-2">1.5.2. 《wd1002/プロダクト設計書》</a></li>
-<li><a href="#sec-1-5-3">1.5.3. 《wd1003/スタブコード》</a></li>
-<li><a href="#sec-1-5-4">1.5.4. 《wd1004/テスト設計書》</a></li>
-<li><a href="#sec-1-5-5">1.5.5. 《wd1005/プロダクトコード》</a></li>
-<li><a href="#sec-1-5-6">1.5.6. 《wd1006/テストコード》</a></li>
-<li><a href="#sec-1-5-7">1.5.7. 《wd1007/ビルド成果物》</a></li>
-<li><a href="#sec-1-5-8">1.5.8. 《wd1008/テスト報告書》</a></li>
-<li><a href="#sec-1-5-9">1.5.9. 《wd1009/アプリケーションサーバ》</a></li>
-<li><a href="#sec-1-5-10">1.5.10. 《wd1010/デプロイスクリプト》</a></li>
-<li><a href="#sec-1-5-11">1.5.11. 《wd1011/プロダクトシステム》</a></li>
-<li><a href="#sec-1-5-12">1.5.12. 《wd1012/システムテスト記録》</a></li>
+<li><a href="#sec-1-4-1">1.4.1. 《wd1001/プロダクト仕様書》</a></li>
+<li><a href="#sec-1-4-2">1.4.2. 《wd1002/プロダクト設計書》</a></li>
+<li><a href="#sec-1-4-3">1.4.3. 《wd1003/スタブコード》</a></li>
+<li><a href="#sec-1-4-4">1.4.4. 《wd1004/テスト設計書》</a></li>
+<li><a href="#sec-1-4-5">1.4.5. 《wd1005/プロダクトコード》</a></li>
+<li><a href="#sec-1-4-6">1.4.6. 《wd1006/テストコード》</a></li>
+<li><a href="#sec-1-4-7">1.4.7. 《wd1007/ビルド成果物》</a></li>
+<li><a href="#sec-1-4-8">1.4.8. 《wd1008/テスト報告書》</a></li>
+<li><a href="#sec-1-4-9">1.4.9. 《wd1009/アプリケーションサーバ》</a></li>
+<li><a href="#sec-1-4-10">1.4.10. 《wd1010/デプロイスクリプト》</a></li>
+<li><a href="#sec-1-4-11">1.4.11. 《wd1011/プロダクトシステム》</a></li>
+<li><a href="#sec-1-4-12">1.4.12. 《wd1012/システムテスト記録》</a></li>
 </ul>
 </li>
-<li><a href="#sec-1-6">1.6. 〔プロセス定義書〕</a>
+<li><a href="#sec-1-5">1.5. 〔プロセス定義書〕</a>
 <ul>
-<li><a href="#sec-1-6-1">1.6.1. 〈wp1001/プロダクト仕様書作成〉</a></li>
-<li><a href="#sec-1-6-2">1.6.2. 〈wp1002/プロダクト設計書作成〉</a></li>
-<li><a href="#sec-1-6-3">1.6.3. 〈wp1003/スタブコード作成〉</a></li>
-<li><a href="#sec-1-6-4">1.6.4. 〈wp1004/テスト設計書作成〉</a></li>
-<li><a href="#sec-1-6-5">1.6.5. 〈wp1005/プロダクトコード作成〉</a></li>
-<li><a href="#sec-1-6-6">1.6.6. 〈wp1006/テストコード作成〉</a></li>
-<li><a href="#sec-1-6-7">1.6.7. 〈wp1007/ビルド〉</a></li>
-<li><a href="#sec-1-6-8">1.6.8. 〈wp1008/テスト報告書作成〉</a></li>
-<li><a href="#sec-1-6-9">1.6.9. 〈wp1009/デプロイ〉</a></li>
-<li><a href="#sec-1-6-10">1.6.10. 〈wp1010/システムテスト〉</a></li>
+<li><a href="#sec-1-5-1">1.5.1. 〈wp1001/プロダクト仕様書作成〉</a></li>
+<li><a href="#sec-1-5-2">1.5.2. 〈wp1002/プロダクト設計書作成〉</a></li>
+<li><a href="#sec-1-5-3">1.5.3. 〈wp1003/スタブコード作成〉</a></li>
+<li><a href="#sec-1-5-4">1.5.4. 〈wp1004/テスト設計書作成〉</a></li>
+<li><a href="#sec-1-5-5">1.5.5. 〈wp1005/プロダクトコード作成〉</a></li>
+<li><a href="#sec-1-5-6">1.5.6. 〈wp1006/テストコード作成〉</a></li>
+<li><a href="#sec-1-5-7">1.5.7. 〈wp1007/ビルド〉</a></li>
+<li><a href="#sec-1-5-8">1.5.8. 〈wp1008/テスト報告書作成〉</a></li>
+<li><a href="#sec-1-5-9">1.5.9. 〈wp1009/デプロイ〉</a></li>
+<li><a href="#sec-1-5-10">1.5.10. 〈wp1010/システムテスト〉</a></li>
 </ul>
 </li>
 </ul>
@@ -212,32 +211,28 @@ for the JavaScript code in this tag.
 <h3 id="sec-1-2"><span class="section-number-3">1.2</span> 〔PFD〕</h3>
 <div class="outline-text-3" id="text-1-2">
 <ul class="org-ul">
-<li><a href="pfd.gif"><img src="pfd.gif" alt="pfd.gif" /></a>
+<li>図 <a href="pfd.gif"><img src="pfd.gif" alt="pfd.gif" /></a>
 </li>
-<li>ソースファイル <a href="pfd.dot"><a href="pfd.dot">pfd.dot</a></a>
+<li>ソースファイル <a href="pfd.dot">pfd.dot</a>
 </li>
 </ul>
 </div>
-</div>
-<div id="outline-container-sec-1-3" class="outline-3">
-<h3 id="sec-1-3"><span class="section-number-3">1.3</span> 〔イテレーション〕</h3>
-<div class="outline-text-3" id="text-1-3">
-</div><div id="outline-container-sec-1-3-1" class="outline-4">
-<h4 id="sec-1-3-1"><span class="section-number-4">1.3.1</span> 〔イテレーション10〕</h4>
-<div class="outline-text-4" id="text-1-3-1">
+<div id="outline-container-sec-1-2-1" class="outline-4">
+<h4 id="sec-1-2-1"><span class="section-number-4">1.2.1</span> 〔イテレーション10〕</h4>
+<div class="outline-text-4" id="text-1-2-1">
 <ul class="org-ul">
 <li>目標
 <ul class="org-ul">
-<li>入出力をダミーにして実装、テスト、デプロイ、結合テストする。
+<li>中身空。
 </li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-3-2" class="outline-4">
-<h4 id="sec-1-3-2"><span class="section-number-4">1.3.2</span> 〔イテレーション11〕</h4>
-<div class="outline-text-4" id="text-1-3-2">
+<div id="outline-container-sec-1-2-2" class="outline-4">
+<h4 id="sec-1-2-2"><span class="section-number-4">1.2.2</span> 〔イテレーション11〕</h4>
+<div class="outline-text-4" id="text-1-2-2">
 <ul class="org-ul">
 <li>目標
 <ul class="org-ul">
@@ -249,9 +244,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-sec-1-4" class="outline-3">
-<h3 id="sec-1-4"><span class="section-number-3">1.4</span> branch</h3>
-<div class="outline-text-3" id="text-1-4">
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> branch</h3>
+<div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">
 <li>異なるイテレーションには異なる branch を用意する。
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -269,12 +264,12 @@ for the JavaScript code in this tag.
 </tr>
 
 <tr>
-<td class="left">ticket3584-s10</td>
+<td class="left">issue1-s10</td>
 <td class="left">イテレーション10</td>
 </tr>
 
 <tr>
-<td class="left">ticket3584-s11</td>
+<td class="left">issue1-s11</td>
 <td class="left">イテレーション11</td>
 </tr>
 </tbody>
@@ -283,209 +278,207 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5" class="outline-3">
-<h3 id="sec-1-5"><span class="section-number-3">1.5</span> 〔成果物定義書〕</h3>
-<div class="outline-text-3" id="text-1-5">
-</div><div id="outline-container-sec-1-5-1" class="outline-4">
-<h4 id="sec-1-5-1"><span class="section-number-4">1.5.1</span> 《wd1001/プロダクト仕様書》</h4>
-<div class="outline-text-4" id="text-1-5-1">
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> 〔成果物定義書〕</h3>
+<div class="outline-text-3" id="text-1-4">
+</div><div id="outline-container-sec-1-4-1" class="outline-4">
+<h4 id="sec-1-4-1"><span class="section-number-4">1.4.1</span> 《wd1001/プロダクト仕様書》</h4>
+<div class="outline-text-4" id="text-1-4-1">
 <ul class="org-ul">
 <li><a href="wd1001.html">《wd1001/プロダクト仕様書》</a>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5-2" class="outline-4">
-<h4 id="sec-1-5-2"><span class="section-number-4">1.5.2</span> 《wd1002/プロダクト設計書》</h4>
-<div class="outline-text-4" id="text-1-5-2">
+<div id="outline-container-sec-1-4-2" class="outline-4">
+<h4 id="sec-1-4-2"><span class="section-number-4">1.4.2</span> 《wd1002/プロダクト設計書》</h4>
+<div class="outline-text-4" id="text-1-4-2">
 <ul class="org-ul">
 <li><a href="wd1002.html">《wd1002/プロダクト設計書》</a>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5-3" class="outline-4">
-<h4 id="sec-1-5-3"><span class="section-number-4">1.5.3</span> 《wd1003/スタブコード》</h4>
-<div class="outline-text-4" id="text-1-5-3">
+<div id="outline-container-sec-1-4-3" class="outline-4">
+<h4 id="sec-1-4-3"><span class="section-number-4">1.4.3</span> 《wd1003/スタブコード》</h4>
+<div class="outline-text-4" id="text-1-4-3">
 <ul class="org-ul">
 <li><a href="wd1003.html">《wd1003/スタブコード》</a>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5-4" class="outline-4">
-<h4 id="sec-1-5-4"><span class="section-number-4">1.5.4</span> 《wd1004/テスト設計書》</h4>
-<div class="outline-text-4" id="text-1-5-4">
+<div id="outline-container-sec-1-4-4" class="outline-4">
+<h4 id="sec-1-4-4"><span class="section-number-4">1.4.4</span> 《wd1004/テスト設計書》</h4>
+<div class="outline-text-4" id="text-1-4-4">
 <ul class="org-ul">
 <li><a href="wd1004.html">《wd1004/テスト設計書》</a>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5-5" class="outline-4">
-<h4 id="sec-1-5-5"><span class="section-number-4">1.5.5</span> 《wd1005/プロダクトコード》</h4>
-<div class="outline-text-4" id="text-1-5-5">
+<div id="outline-container-sec-1-4-5" class="outline-4">
+<h4 id="sec-1-4-5"><span class="section-number-4">1.4.5</span> 《wd1005/プロダクトコード》</h4>
+<div class="outline-text-4" id="text-1-4-5">
 <ul class="org-ul">
 <li><a href="wd1005.html">《wd1005/プロダクトコード》</a>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5-6" class="outline-4">
-<h4 id="sec-1-5-6"><span class="section-number-4">1.5.6</span> 《wd1006/テストコード》</h4>
-<div class="outline-text-4" id="text-1-5-6">
+<div id="outline-container-sec-1-4-6" class="outline-4">
+<h4 id="sec-1-4-6"><span class="section-number-4">1.4.6</span> 《wd1006/テストコード》</h4>
+<div class="outline-text-4" id="text-1-4-6">
 <ul class="org-ul">
 <li><a href="wd1006.html">《wd1006/テストコード》</a>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5-7" class="outline-4">
-<h4 id="sec-1-5-7"><span class="section-number-4">1.5.7</span> 《wd1007/ビルド成果物》</h4>
-<div class="outline-text-4" id="text-1-5-7">
+<div id="outline-container-sec-1-4-7" class="outline-4">
+<h4 id="sec-1-4-7"><span class="section-number-4">1.4.7</span> 《wd1007/ビルド成果物》</h4>
+<div class="outline-text-4" id="text-1-4-7">
 <ul class="org-ul">
-<li><a href="#sec-1-6-7">〈wp1007/ビルド〉</a> を実行した結果が 《wd1007/ビルド成果物》 である。
+<li><a href="#sec-1-5-7">〈wp1007/ビルド〉</a> を実行した結果が 《wd1007/ビルド成果物》 である。
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5-8" class="outline-4">
-<h4 id="sec-1-5-8"><span class="section-number-4">1.5.8</span> 《wd1008/テスト報告書》</h4>
-<div class="outline-text-4" id="text-1-5-8">
+<div id="outline-container-sec-1-4-8" class="outline-4">
+<h4 id="sec-1-4-8"><span class="section-number-4">1.4.8</span> 《wd1008/テスト報告書》</h4>
+<div class="outline-text-4" id="text-1-4-8">
 <ul class="org-ul">
 <li><a href="wd1008.html">《wd1008/テスト報告書》</a>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5-9" class="outline-4">
-<h4 id="sec-1-5-9"><span class="section-number-4">1.5.9</span> 《wd1009/アプリケーションサーバ》</h4>
-<div class="outline-text-4" id="text-1-5-9">
+<div id="outline-container-sec-1-4-9" class="outline-4">
+<h4 id="sec-1-4-9"><span class="section-number-4">1.4.9</span> 《wd1009/アプリケーションサーバ》</h4>
+<div class="outline-text-4" id="text-1-4-9">
 <ul class="org-ul">
 <li>TBD
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5-10" class="outline-4">
-<h4 id="sec-1-5-10"><span class="section-number-4">1.5.10</span> 《wd1010/デプロイスクリプト》</h4>
-<div class="outline-text-4" id="text-1-5-10">
+<div id="outline-container-sec-1-4-10" class="outline-4">
+<h4 id="sec-1-4-10"><span class="section-number-4">1.4.10</span> 《wd1010/デプロイスクリプト》</h4>
+<div class="outline-text-4" id="text-1-4-10">
 <ul class="org-ul">
 <li><a href="wd1010.html">《wd1010/デプロイスクリプト》</a>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5-11" class="outline-4">
-<h4 id="sec-1-5-11"><span class="section-number-4">1.5.11</span> 《wd1011/プロダクトシステム》</h4>
-<div class="outline-text-4" id="text-1-5-11">
+<div id="outline-container-sec-1-4-11" class="outline-4">
+<h4 id="sec-1-4-11"><span class="section-number-4">1.4.11</span> 《wd1011/プロダクトシステム》</h4>
+<div class="outline-text-4" id="text-1-4-11">
 <ul class="org-ul">
-<li><a href="#sec-1-5-7">《wd1007/ビルド成果物》</a> を <a href="#sec-1-5-9">《wd1009/アプリケーションサーバ》</a> 上で稼働させたもの。
+<li><a href="#sec-1-4-7">《wd1007/ビルド成果物》</a> を <a href="#sec-1-4-9">《wd1009/アプリケーションサーバ》</a> 上で稼働させたもの。
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-5-12" class="outline-4">
-<h4 id="sec-1-5-12"><span class="section-number-4">1.5.12</span> 《wd1012/システムテスト記録》</h4>
-<div class="outline-text-4" id="text-1-5-12">
+<div id="outline-container-sec-1-4-12" class="outline-4">
+<h4 id="sec-1-4-12"><span class="section-number-4">1.4.12</span> 《wd1012/システムテスト記録》</h4>
+</div>
+</div>
+<div id="outline-container-sec-1-5" class="outline-3">
+<h3 id="sec-1-5"><span class="section-number-3">1.5</span> 〔プロセス定義書〕</h3>
+<div class="outline-text-3" id="text-1-5">
+</div><div id="outline-container-sec-1-5-1" class="outline-4">
+<h4 id="sec-1-5-1"><span class="section-number-4">1.5.1</span> 〈wp1001/プロダクト仕様書作成〉</h4>
+<div class="outline-text-4" id="text-1-5-1">
 <ul class="org-ul">
-<li><a href="file://n:/eclipseWT/2016NS/nakamura-ticket3584-systemdev/document/development/wd1012.html">《wd1012/システムテスト記録》</a>
+<li><a href="#sec-1-4-1">《wd1001/プロダクト仕様書》</a> を作成する。
 </li>
 </ul>
 </div>
 </div>
-</div>
-<div id="outline-container-sec-1-6" class="outline-3">
-<h3 id="sec-1-6"><span class="section-number-3">1.6</span> 〔プロセス定義書〕</h3>
-<div class="outline-text-3" id="text-1-6">
-</div><div id="outline-container-sec-1-6-1" class="outline-4">
-<h4 id="sec-1-6-1"><span class="section-number-4">1.6.1</span> 〈wp1001/プロダクト仕様書作成〉</h4>
-<div class="outline-text-4" id="text-1-6-1">
+<div id="outline-container-sec-1-5-2" class="outline-4">
+<h4 id="sec-1-5-2"><span class="section-number-4">1.5.2</span> 〈wp1002/プロダクト設計書作成〉</h4>
+<div class="outline-text-4" id="text-1-5-2">
 <ul class="org-ul">
-<li><a href="#sec-1-5-1">《wd1001/プロダクト仕様書》</a> を作成する。
+<li><a href="#sec-1-4-2">《wd1002/プロダクト設計書》</a> を作成する。
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-6-2" class="outline-4">
-<h4 id="sec-1-6-2"><span class="section-number-4">1.6.2</span> 〈wp1002/プロダクト設計書作成〉</h4>
-<div class="outline-text-4" id="text-1-6-2">
+<div id="outline-container-sec-1-5-3" class="outline-4">
+<h4 id="sec-1-5-3"><span class="section-number-4">1.5.3</span> 〈wp1003/スタブコード作成〉</h4>
+<div class="outline-text-4" id="text-1-5-3">
 <ul class="org-ul">
-<li><a href="#sec-1-5-2">《wd1002/プロダクト設計書》</a> を作成する。
-</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-sec-1-6-3" class="outline-4">
-<h4 id="sec-1-6-3"><span class="section-number-4">1.6.3</span> 〈wp1003/スタブコード作成〉</h4>
-<div class="outline-text-4" id="text-1-6-3">
-<ul class="org-ul">
-<li><a href="#sec-1-5-3">《wd1003/スタブコード》</a> を作成する。
+<li><a href="#sec-1-4-3">《wd1003/スタブコード》</a> を作成する。
 </li>
 <li>この段階ではテストコードをコンパイルするために必要最低限のコードだけを作成する。
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-6-4" class="outline-4">
-<h4 id="sec-1-6-4"><span class="section-number-4">1.6.4</span> 〈wp1004/テスト設計書作成〉</h4>
-<div class="outline-text-4" id="text-1-6-4">
+<div id="outline-container-sec-1-5-4" class="outline-4">
+<h4 id="sec-1-5-4"><span class="section-number-4">1.5.4</span> 〈wp1004/テスト設計書作成〉</h4>
+<div class="outline-text-4" id="text-1-5-4">
 <ul class="org-ul">
-<li><a href="#sec-1-5-4">《wd1004/テスト設計書》</a> を作成する。
+<li><a href="#sec-1-4-4">《wd1004/テスト設計書》</a> を作成する。
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-6-5" class="outline-4">
-<h4 id="sec-1-6-5"><span class="section-number-4">1.6.5</span> 〈wp1005/プロダクトコード作成〉</h4>
-<div class="outline-text-4" id="text-1-6-5">
+<div id="outline-container-sec-1-5-5" class="outline-4">
+<h4 id="sec-1-5-5"><span class="section-number-4">1.5.5</span> 〈wp1005/プロダクトコード作成〉</h4>
+<div class="outline-text-4" id="text-1-5-5">
 <ul class="org-ul">
-<li><a href="#sec-1-5-5">《wd1005/プロダクトコード》</a>  を作成する。
+<li><a href="#sec-1-4-5">《wd1005/プロダクトコード》</a>  を作成する。
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-6-6" class="outline-4">
-<h4 id="sec-1-6-6"><span class="section-number-4">1.6.6</span> 〈wp1006/テストコード作成〉</h4>
-<div class="outline-text-4" id="text-1-6-6">
+<div id="outline-container-sec-1-5-6" class="outline-4">
+<h4 id="sec-1-5-6"><span class="section-number-4">1.5.6</span> 〈wp1006/テストコード作成〉</h4>
+<div class="outline-text-4" id="text-1-5-6">
 <ul class="org-ul">
-<li><a href="#sec-1-5-6">《wd1006/テストコード》</a> を作成する。
+<li><a href="#sec-1-4-6">《wd1006/テストコード》</a> を作成する。
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-6-7" class="outline-4">
-<h4 id="sec-1-6-7"><span class="section-number-4">1.6.7</span> 〈wp1007/ビルド〉</h4>
-<div class="outline-text-4" id="text-1-6-7">
+<div id="outline-container-sec-1-5-7" class="outline-4">
+<h4 id="sec-1-5-7"><span class="section-number-4">1.5.7</span> 〈wp1007/ビルド〉</h4>
+<div class="outline-text-4" id="text-1-5-7">
 <ul class="org-ul">
 <li><a href="wp1007.html">〈wp1007/ビルド〉</a>
 </li>
-</ul>
-</div>
-</div>
-<div id="outline-container-sec-1-6-8" class="outline-4">
-<h4 id="sec-1-6-8"><span class="section-number-4">1.6.8</span> 〈wp1008/テスト報告書作成〉</h4>
-<div class="outline-text-4" id="text-1-6-8">
-<ul class="org-ul">
-<li><a href="#sec-1-5-8">《wd1008/テスト報告書》</a> を作成する。
+<li>テスト実行時に logger level が FINE になっていることを確認する。
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-6-9" class="outline-4">
-<h4 id="sec-1-6-9"><span class="section-number-4">1.6.9</span> 〈wp1009/デプロイ〉</h4>
-<div class="outline-text-4" id="text-1-6-9">
+<div id="outline-container-sec-1-5-8" class="outline-4">
+<h4 id="sec-1-5-8"><span class="section-number-4">1.5.8</span> 〈wp1008/テスト報告書作成〉</h4>
+<div class="outline-text-4" id="text-1-5-8">
+<ul class="org-ul">
+<li><a href="#sec-1-4-8">《wd1008/テスト報告書》</a> を作成する。
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-5-9" class="outline-4">
+<h4 id="sec-1-5-9"><span class="section-number-4">1.5.9</span> 〈wp1009/デプロイ〉</h4>
+<div class="outline-text-4" id="text-1-5-9">
 <ul class="org-ul">
 <li><a href="wp1009.html">〈wp1009/デプロイ〉</a>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-sec-1-6-10" class="outline-4">
-<h4 id="sec-1-6-10"><span class="section-number-4">1.6.10</span> 〈wp1010/システムテスト〉</h4>
-<div class="outline-text-4" id="text-1-6-10">
+<div id="outline-container-sec-1-5-10" class="outline-4">
+<h4 id="sec-1-5-10"><span class="section-number-4">1.5.10</span> 〈wp1010/システムテスト〉</h4>
+<div class="outline-text-4" id="text-1-5-10">
 <ul class="org-ul">
-<li><a href="#sec-1-5-11">《wd1011/プロダクトシステム》</a> をテストする。
+<li><a href="#sec-1-4-11">《wd1011/プロダクトシステム》</a> をテストする。
+</li>
+<li>テスト実行時に logger level が INFO になっていることを確認する。
 </li>
 </ul>
 </div>
@@ -496,16 +489,16 @@ for the JavaScript code in this tag.
 <h2 id="sec-2"><span class="section-number-2">2</span> 変更履歴</h2>
 <div class="outline-text-2" id="text-2">
 <ol class="org-ol">
-<li>2016-09-23 NEW nakamura@isfactory.co.jp
+<li>2016-11-10 NEW tempest200903@gmail.com
 </li>
 </ol>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">&#26085;&#20184;: 2016-10-06</p>
-<p class="author">&#33879;&#32773;: nakamura@isfactory.co.jp</p>
-<p class="date">Created: 2016-11-08 火 13:49</p>
+<p class="date">&#26085;&#20184;: 2016-11-10</p>
+<p class="author">&#33879;&#32773;: tempest200903@gmail.com</p>
+<p class="date">Created: 2016-11-10 木 19:16</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
