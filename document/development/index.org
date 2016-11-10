@@ -1,8 +1,8 @@
 # -*- coding: utf-8-unix; mode: org; -*-
 #+OPTIONS: ^:nil h:5
 #+TITLE: 〈開発プロセス〉
-#+AUTHOR: nakamura@isfactory.co.jp
-#+DATE:	2016-10-06
+#+AUTHOR: tempest200903@gmail.com
+#+DATE:	2016-11-10
 #+LANGUAGE:	ja
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
@@ -15,20 +15,18 @@
 ** 〔前提〕
 - [[file:terminological-dictionary.org::*〈用語辞典〉][〈用語辞典〉]]
 ** 〔PFD〕
-- [[file:pfd.gif][file:pfd.gif]]
-- ソースファイル [[file:pfd.dot][file:pfd.dot]]
-** 〔イテレーション〕
+- [[file:pfd.md]]
 *** 〔イテレーション10〕
 - 目標
-  - 入出力をダミーにして実装、テスト、デプロイ、結合テストする。
+  - 中身空。
 *** 〔イテレーション11〕
 - 目標
   - 実物を実装、テスト、デプロイ、結合テストする。
 ** branch
 - 異なるイテレーションには異なる branch を用意する。
-  | branch         | 用途             |
-  | ticket3584-s10 | イテレーション10 |
-  | ticket3584-s11 | イテレーション11 |
+  | branch     | 用途             |
+  | issue1-s10 | イテレーション10 |
+  | issue1-s11 | イテレーション11 |
 ** 〔成果物定義書〕
 *** 《wd1001/プロダクト仕様書》
 - [[file:wd1001.org][《wd1001/プロダクト仕様書》]]
@@ -53,7 +51,6 @@
 *** 《wd1011/プロダクトシステム》
 - [[*《wd1007/ビルド成果物》][《wd1007/ビルド成果物》]] を [[*《wd1009/アプリケーションサーバ》][《wd1009/アプリケーションサーバ》]] 上で稼働させたもの。
 *** 《wd1012/システムテスト記録》
-- [[file:n:/eclipseWT/2016NS/nakamura-ticket3584-systemdev/document/development/wd1012.org::*《wd1012/システムテスト記録》][《wd1012/システムテスト記録》]]
 ** 〔プロセス定義書〕
 *** 〈wp1001/プロダクト仕様書作成〉
 - [[*《wd1001/プロダクト仕様書》][《wd1001/プロダクト仕様書》]] を作成する。
@@ -79,4 +76,5 @@
 - [[*《wd1011/プロダクトシステム》][《wd1011/プロダクトシステム》]] をテストする。
 - テスト実行時に logger level が INFO になっていることを確認する。
 * 変更履歴
-1. 2016-09-23 NEW nakamura@isfactory.co.jp
+1. 2016-11-10 NEW tempest200903@gmail.com
+
